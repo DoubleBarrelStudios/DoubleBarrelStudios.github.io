@@ -5,7 +5,7 @@ a, a:visited {
 }
 body {
   height: 100vh;
-  background: radial-gradient(ellipse, #14356d 0%, #0c2551 50%, #071e47 100%);
+  background: radial-gradient(ellipse, #14356d 0%, #0c2551 50%, #031433 100%);
   display: flex;
   justify-content: center;
   align-items: center;
