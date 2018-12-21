@@ -6,7 +6,9 @@ a, a:visited {
 
 body {
   height: 98vh;
-  background: radial-gradient(ellipse, #14356d 0%, #0c2551 50%, #031433 100%);
+  background: #c31432; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #c31432, #240b36); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #c31432, #240b36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +25,7 @@ body {
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 5px;
 }
- 
+
 .item {
   background: white;
   border-radius: 5px;
@@ -144,7 +146,7 @@ body {
 }
  
 #db:hover > a {
-  color: #F9812A;
+  color: #73c2fb;
   transform: scale(1.5);
 } a {
     display: inline-block;
